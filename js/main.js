@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    new WOW().init();
     $(".nav__owl__carousel").owlCarousel({
         dots: false,
         autoWidth: true
@@ -34,6 +35,7 @@ $(document).ready(function(){
         $(this).toggleClass('on');
         $('.search_on').slideToggle("slow");
     });
+    
 });
 if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
     var viewportmeta = document.querySelector('meta[name="viewport"]');
