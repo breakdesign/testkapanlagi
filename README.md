@@ -51,7 +51,7 @@ C:\xampp\htdocs\feskill>heroku apps:create nama_app
 
 **nama_app** : bisa diganti dan disesuaikan
 
-*(nama_app)* tersebut akan menjadi nama domain dan nama respository di akun Heroku anda 
+*nama_app* tersebut akan menjadi nama domain dan nama respository di akun Heroku anda 
 Nama Domain     : (https://nama_app.herokuapp.com)
 Nama Repository : (https://git.heroku.com/nama_app.git
 
@@ -67,7 +67,7 @@ Kemudian untuk melakukan pembaruan/perubahan file(commit) , ketikan perintah
 C:\xampp\htdocs\feskill>git commit -m "Nama Perubahan"
 </pre>
 
-*(Nama Perubahan)* bisa dirubah sesuai kebutuhan yang bertujuan memberitau perubahan yang dilakukan.
+*Nama Perubahan* bisa dirubah sesuai kebutuhan yang bertujuan memberitau perubahan yang dilakukan.
 
 Langkah terakhir mengupload ke hosting Heroku dengan cara ketikan perintah
 
