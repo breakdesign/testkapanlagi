@@ -31,6 +31,7 @@ Untuk menggunakan Hosting Heroku kita memerlukan Akun Heroku, jika belum mempuny
 
 
 ## jQuery yang digunakan
+Mockup sederhana ini didukung beberapa library jQuery sebagai berikut :
 
 * [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/) - Carousel jQuery
 * [Infinite Scroll](https://infinite-scroll.com/) - Infinite scrolling jQuery
