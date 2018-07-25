@@ -1,0 +1,26 @@
+%hover_menu {
+    border-bottom: 2px solid #50dccf;
+}
+%link_full_screen {
+    font-size: 4.4vw;
+    color: #333237;
+    display: block;
+    line-height: 1.3em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+%span {
+    font-size: 3.2vw;
+    color: $small_color;
+}
+%link_1_2 {
+    font-size: 4.4vw;
+    color: #333331;
+    margin-bottom: 10px;
+}
+%number {
+    width: 6vw;
+    font-size: 5.5vw;
+    font-weight: 800;
+    color: $primary_color;
+}

@@ -1,0 +1,61 @@
+header {
+	padding-top: 15px;
+	vertical-align: middle;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #98d7cf;
+	background-color: #ffffff;
+}
+.search {
+	background-image: url("../img/search.png");
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.search.on {
+    background-image: url("../img/cancel.png") !important;
+}
+.nav {
+	position: relative;
+	background-color: $primary_color;
+	ul li {
+		display: inline-block;
+		a{
+			padding: 20px 20px 15px 20px;
+			display: inline-block;
+			color: #ffffff;
+			font-size: 17px;
+			
+			border-bottom: 2px solid $primary_color;
+			&:hover {
+				@extend %hover_menu;
+			}
+		}
+	}
+	li.active {
+		a {
+			@extend %hover_menu;
+		}
+    }
+	.search_on {
+		z-index: 999;
+		text-align: center;
+		vertical-align: middle;
+		position: absolute;
+		width: 100%;
+		background-color: #eeeaeb;
+		top: -1px;
+		display: none;
+		input[type='text'] {
+			width: 90%;
+			text-align: left;
+			margin: 0 auto;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			font-size: 12px;
+			padding: 13px;
+			border: none;
+			border-radius: 8px;
+		}
+	}
+}
